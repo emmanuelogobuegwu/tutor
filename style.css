@@ -1,0 +1,217 @@
+*{
+    font-family: 'inter';
+}
+body{
+     background-color: #010313;
+     color: white;
+     font-family: 'inter';
+     
+}
+nav  {
+   font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+nav ul li {  
+	display: inline; 
+    margin: 10px;
+	} 
+ #b{
+    background-color:#010313;
+    color:  white;
+    border: 1px solid #2945FF;
+    font-size: 16px;
+    width: 100px;
+    padding: 5px;
+    
+
+}
+#l1{
+    text-align: center;
+}
+#l{
+    text-align: center;
+    
+}
+#h11{
+   text-align: center;
+    font-size: 50px;
+}
+#h111{
+        text-align: center;
+         font-size: 50px;
+         margin-top: 100px;
+}
+#for{
+    display: flex;
+    justify-content: center;
+    
+}
+#email{
+    font-size: 20px;
+    padding: 10px;
+    width: 300px;
+}
+
+#get{
+    font-size: 20px;
+    background-color: #2945FF;
+    border: 1px solid #2945FF;
+    color: white;
+    padding: 10px;
+    width: 200px;
+}
+.ddd{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+
+}
+.dd{
+    border: 1px solid;
+    text-align: center;
+    margin: 10px;
+    padding: 40px;
+   
+}
+
+ .dddd{
+    background-color: #5A3FC41A; 
+   
+}
+#how{
+    display: flex;
+    justify-content: center;
+}
+.d2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+   
+    
+}
+.d{
+    margin: 45px;
+}
+
+#bt{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+#imgg{
+  margin-left: 18%;
+}
+
+#pp{
+    
+    margin: 50px;
+    padding-top: 10px;
+    font-size: 15px;
+    
+}
+#tex{
+    display: flex;
+}
+#ss{
+    padding-top: 20px;
+}
+@media screen and (max-width: 400px) {
+    #h11{
+        font-size: 20px;
+    }
+    #h111
+    {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+#l{
+    font-size: 10px;
+}
+    #email{
+        font-size: 10px;
+        width: 150px;
+    }
+    #get{
+        font-size: 10px;
+        width: 100px;
+    }
+   .ddd{
+    flex-direction: column;
+   }
+   .dd{
+    padding: 2px;
+    margin: 10px;
+    
+   }
+   .d2{
+flex-direction: column;    
+}
+#tex{
+    flex-direction: column;
+    margin-left: 0;
+}
+#imgg{
+    margin-left: 0;
+    
+}
+#l1{
+    font-size: 20px;
+}
+}
+@media screen and (max-width: 820px) {
+    #h11{
+        font-size: 40px;
+    }
+    #l{
+        font-size: 19px;
+    }
+    #email{
+        width: 50%;
+        font-size: 20px;
+    }
+    #get{
+        
+        font-size: 20px;
+    }
+    #h111{
+        font-size: 40px;
+        margin-top: 25px;
+    }
+    .ddd{
+        flex-direction: column;
+    }
+    .d2{
+        flex-direction: column;
+    }
+    p{
+        font-size: 19px;
+    }
+   
+ .dddd{
+    flex-direction: column;
+ }
+ #tex{
+    flex-direction: column;
+    
+ }
+ #imgg{
+    width: 90%;
+    align-content: center;
+    margin-left: 5%;
+ }
+ #how{
+    font-size: 20px;
+ }
+ h3,h4{
+    font-size: 25px;
+ }
+ #pp{
+  text-align: center;
+ }
+ 
+}
